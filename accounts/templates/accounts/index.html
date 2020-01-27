@@ -10,6 +10,7 @@
     <p><a href="{% url 'logout' %}">ログアウト</a></p>
     {% else %}
     <p><a href="{% url 'login' %}">ログイン</a></p>
+    <p><a href="{% url 'accounts:signup' %}">登録</a></p>
     {% endif %}
 </body>
 </html>
